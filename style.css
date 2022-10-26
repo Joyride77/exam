@@ -16,6 +16,10 @@ body {
     margin: 6px;
 }
 
+.padding {
+    padding: 30px 0;
+}
+
 a {
     color:#0066CC;
     text-decoration: none;
@@ -243,4 +247,16 @@ footer li {
 
 .bottom-border {
     border-bottom: 1px solid #59595d;
+    padding: 0 0 30px 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-a {
+    border-right: 1.5px solid #59595d;
+    padding:10px;
 }
